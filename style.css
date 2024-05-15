@@ -36,6 +36,11 @@ body {
     color: rgb(255, 255, 255)
 }
 
+.contact:hover {
+    text-decoration: none;
+    color: rgb(0, 160, 255);
+}
+
 .contact:active {
     text-decoration: none;
     color: rgb(0, 140, 255);
