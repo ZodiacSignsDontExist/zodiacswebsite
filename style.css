@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: url(img/youarentimmune.png);
+}
+
+.contact h1 {
+    padding: 15%;
+    color: rgb(255, 255, 255)
+}
+
+.contact li {
+    list-style-type: none;
+}
+
+.contact .contact-container {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.contact-container::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(img/rblxfavicon.png) no-repeat;
+    background-size: contain;
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-container:hover {
+    color: rgb(0, 170, 255);
+}
+
+.contact-container:active {
+    color: rgb(0, 140, 255);
+}
